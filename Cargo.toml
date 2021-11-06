@@ -1,0 +1,17 @@
+[package]
+name = "cargo-interop"
+homepage = "https://github.com/TotempaaltJ/cargo-interop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quicli = "0.4"
+structopt = "0.3.25"
+toml = "0.5.8"
+anyhow = "1.0.45"
+indicatif = "0.16.2"
+serde = { version = "1.0.130", features = ["derive"] }
+thiserror = "1.0.30"
+human-panic = "1.0.3"
